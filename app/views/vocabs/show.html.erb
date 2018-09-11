@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @vocab.name %>
+</p>
+
+<p>
+  <strong>Def:</strong>
+  <%= @vocab.def %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @vocab.category %>
+</p>
+
+<%= link_to 'Edit', edit_vocab_path(@vocab) %> |
+<%= link_to 'Back', vocabs_path %>
